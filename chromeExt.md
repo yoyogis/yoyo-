@@ -1,4 +1,4 @@
-#记录
+## 记录
 
 1. 当执行chrome.tabs.executeScript时显示如下错误的时候是因为，没有加回掉函数(callback)
     >(BLESSED_EXTENSION context for cagdglnnpmdnjiomkclmcnmcklmnjebk) extensions::lastError:82: Uncaught TypeError: Cannot convert undefined or null to >object{TypeError: Cannot convert undefined or null to object
@@ -12,5 +12,5 @@
     >at EventImpl.dispatch_ (extensions::event_bindings:372:35)
     >at dispatchArgs (extensions::event_bindings:244:26)
     >at dispatchEvent (extensions::event_bindings:253:7)}
-    
+    如图：
     <img src='./images/QQ20170503-0@2x.png'/>
